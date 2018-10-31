@@ -4,7 +4,8 @@ the code and can be downloaded here:
 
 https://podaac-opendap.jpl.nasa.gov/opendap/allData/oscar/preview/L4/oscar_third_deg/
 
-USAGE: python main.py \n
+USAGE: python main.py 
+
 REQUIREMENTS: 	Python 2.7 (3.6 not tested)
 		NumPy
 		SciPy
@@ -21,15 +22,22 @@ This code:
 
 Variables:
 
-N:	number of particles \n
-X:	2D coordinates of particles \n
-V:	2D velocity grid (random) \n 
-grid: 	base of velocity vectors (2D) \n
-dX:	update positions with small random walk steps \n 
-Vx:	update positions using nearest velocity vectors \n
-tmax:	arbitrary time, number of steps \n
-dt:	arbitrary time to scale number of steps \n
+N:	number of particles 
 
+X:	2D coordinates of particles 
 
-Dillion Fox, Lincoln Rehm \n
+V:	2D velocity grid (random) 
+
+grid: 	base of velocity vectors (2D)
+
+dX:	update positions with small random walk steps
+
+Vx:	update positions using nearest velocity vectors
+
+tmax:	arbitrary time, number of steps
+
+dt:	arbitrary time to scale number of steps
+
+Dillion Fox, Lincoln Rehm
+
 2018
